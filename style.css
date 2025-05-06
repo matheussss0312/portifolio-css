@@ -1,0 +1,120 @@
+:root {
+--cor-primaria: #1a3c7d;
+--cor-secundaria:#05183c;
+--cor-terciaria: #06296b;
+--cor--quartearia: #101217;
+--cor-quintaria: #0c0d0d;
+}
+
+body {
+    background-color: var(--cor-primaria);
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--cor-quintaria);
+    color: aliceblue;
+    text-shadow: 5px 9px 9px black;
+    border: 10px outset black;
+}
+
+.primeiralista {
+
+    background-color: var(--cor-terciaria);
+    border: 6px double;
+    width: 350px;
+    box-shadow: 5px 5px 5px;
+    text-align: left;
+    transition: all 0.5s;
+    border-radius: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-bottom: 75px;
+}
+
+.primeiralista:hover {
+    transition: all 0.5s;
+    border-radius: 50px;
+    background-color: var(--cor-quintaria);
+    color: var(--cor-primaria);
+    text-shadow: 5px 5px 5px black;
+
+}
+
+.qualidades {
+
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.segundalista {
+    background-color: var(--cor-terciaria);
+    border: double 6px;
+    width: 385px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    text-align: justify;
+    
+}
+
+.titulinho {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.segundalista:hover {
+    transition: all 0.5s;
+    transform: matrix(9px);
+    background-color: var(--cor-quintaria);
+    border-radius: 50px;
+    color: var(--cor-terciaria);
+    text-shadow: 5px 5px 5px black;
+}
+
+.titulos {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var( --cor-secundaria); 
+    border: none;
+    border-radius: 50px;
+    width: 550px;
+    margin-left: 365px;
+    color: beige;
+    text-shadow: 5px 5px 5px black;
+}
+
+.piquitito {
+
+    text-align: center;
+    background-color: var(--cor--quartearia);
+    width: 250px;
+    color: beige;
+    border: none;
+    border-radius: 100px;
+    margin-left: 520px;
+}
+
+h4 {
+
+    font-size: 31px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
+.bla {
+    background-color: var(--cor-quintaria);
+    color: var(--cor-primaria);
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 5px 5px 5px black;
+}
+
